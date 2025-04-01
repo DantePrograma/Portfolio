@@ -2,6 +2,7 @@ import spotifyCloneImage from "../assets/Screenshot_1.png";
 import multistepformImage from "../assets/Screenshot_2.png";
 import landingPagePlanetas from "../assets/Screenshot_3.png";
 import javascriptQuiz from "../assets/Screenshot_4.png";
+import trelloClonImage from "../assets/trelloClonPortada.png";
 import { GithubLogo } from "../icons/GithubLogo";
 import { LinkIcon } from "../icons/LinkIcon";
 
@@ -42,7 +43,14 @@ const PROJECTS = [
     image: spotifyCloneImage,
     tags: [TAGS.TAILWIND, TAGS.ZUSTAND, TAGS.TANSTACK_ROUTER],
   },
-
+  {
+    title: "Trello Clone",
+    description:
+      "A simple Trello Clone. I learned how to manage a zustand store.",
+    link: "https://trello-clone-28.vercel.app",
+    image: trelloClonImage,
+    tags: [TAGS.ZUSTAND, TAGS.TAILWIND],
+  },
   {
     title: "Multi Step form from Frontend Mentor",
     description:
